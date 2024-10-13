@@ -18,14 +18,14 @@ def home():
 
 def update_data():
     # URLs
-height_url = "https://www.cdc.gov/growthcharts/html_charts/lenageinf.htm#males"
-weight_url = "https://www.cdc.gov/growthcharts/html_charts/wtageinf.htm"
-temp_url = (
-    "https://www.advil.ca/resources/childrens-fever-pain/children-s-temperature-chart/"
-)
-api_base_url = (
-    "https://smartcribmainapp-djdsaff9a0cqcvh2.eastus-01.azurewebsites.net/api"
-)
+    height_url = "https://www.cdc.gov/growthcharts/html_charts/lenageinf.htm#males"
+    weight_url = "https://www.cdc.gov/growthcharts/html_charts/wtageinf.htm"
+    temp_url = (
+        "https://www.advil.ca/resources/childrens-fever-pain/children-s-temperature-chart/"
+    )
+    api_base_url = (
+        "https://smartcribmainapp-djdsaff9a0cqcvh2.eastus-01.azurewebsites.net/api"
+    )
 
 
 # Function to fetch data from a URL
